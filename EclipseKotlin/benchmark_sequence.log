@@ -1,0 +1,91 @@
+# JMH version: 1.34
+# VM version: JDK 11.0.14, OpenJDK 64-Bit Server VM, 11.0.14+9
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-11.0.14.9-hotspot\bin\java.exe
+# VM options: -Xms4g -Xmx4g
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 5 ms each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.DriverJavaBenchmark.FireBenchmark.benchmark
+
+# Run progress: 0.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+<failure>
+
+java.lang.NoClassDefFoundError: benchmark/DriverJavaBenchmark$FireBenchmark
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.openjdk.jmh.util.ClassUtils.enumerateMethods(ClassUtils.java:64)
+	at org.openjdk.jmh.runner.BenchmarkHandler.findBenchmarkMethod(BenchmarkHandler.java:128)
+	at org.openjdk.jmh.runner.BenchmarkHandler.<init>(BenchmarkHandler.java:71)
+	at org.openjdk.jmh.runner.BaseRunner.runBenchmark(BaseRunner.java:232)
+	at org.openjdk.jmh.runner.BaseRunner.doSingle(BaseRunner.java:138)
+	at org.openjdk.jmh.runner.BaseRunner.runBenchmarksForked(BaseRunner.java:75)
+	at org.openjdk.jmh.runner.ForkedRunner.run(ForkedRunner.java:72)
+	at org.openjdk.jmh.runner.ForkedMain.main(ForkedMain.java:86)
+Caused by: java.lang.ClassNotFoundException: benchmark.DriverJavaBenchmark$FireBenchmark
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 47 more
+
+
+
+
+# JMH version: 1.34
+# VM version: JDK 11.0.14, OpenJDK 64-Bit Server VM, 11.0.14+9
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-11.0.14.9-hotspot\bin\java.exe
+# VM options: -Xms4g -Xmx4g
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 5 ms each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.DriverJavaBenchmark.FireJavaBenchmark.benchmark
+
+# Run progress: 50.00% complete, ETA 00:00:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 345.398 ops/s
+# Warmup Iteration   2: 4967.784 ops/s
+# Warmup Iteration   3: 6981.884 ops/s
+Iteration   1: 
