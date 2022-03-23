@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3073ca7-c8d8-41a9-8022-b20634a3b7dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/EclipseJava.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/Java/src/Interview/InterviewDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/Java/src/Interview/InterviewMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/Java/src/Recursion/RecursionDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/Java/src/Recursion/RecursionMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/Java/src/Strings/StringsDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EclipseJava/Java/src/Strings/StringsMain.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1dilRX6jl3NWv1L9C5H0BbSJ5KX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Strings.StringsMain">
+    <configuration name="Interview.InterviewMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Interview.InterviewMain" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursion.RecursionMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionMain" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strings.StringsMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Strings.StringsMain" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Interview.InterviewMain" />
+      <item itemvalue="Application.Recursion.RecursionMain" />
+      <item itemvalue="Application.Strings.StringsMain" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3073ca7-c8d8-41a9-8022-b20634a3b7dc" name="Default Changelist" comment="" />
+      <created>1592915786918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592915786918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1604734273454">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604734273454" />
+  </component>
+</project>

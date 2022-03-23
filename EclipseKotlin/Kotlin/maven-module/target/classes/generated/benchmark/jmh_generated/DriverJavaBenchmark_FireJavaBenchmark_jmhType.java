@@ -1,0 +1,4 @@
+package benchmark.jmh_generated;
+public class DriverJavaBenchmark_FireJavaBenchmark_jmhType extends DriverJavaBenchmark_FireJavaBenchmark_jmhType_B3 {
+}
+
