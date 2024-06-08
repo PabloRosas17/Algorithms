@@ -1,0 +1,57 @@
+
+#* * * * * OTHER * * * * *
+*.zip
+.metadata/
+*.tmp
+
+#* * * * * CPP * * * * *
+.vs/
+EclipseCpp/Cpp/.vs/
+EclipseCpp/.metadata/
+EclipseCpp/Cpp/.settings/
+EclipseCpp/Cpp/Debug/
+EclipseCpp/Cpp/.cproject
+EclipseCpp/Cpp/.project
+EclipseCpp/Cpp/Cpp.sln
+EclipseCpp/Cpp/Cpp.vcxproj
+EclipseCpp/Cpp/Cpp.vcxproj.filters
+EclipseCpp/Cpp/Cpp.vcxproj.user
+EclipseCpp/Cpp/Cpp/
+EclipseCpp/Cpp/x64/
+
+#* * * * * JAVA * * * * *
+EclipseJavaEE/.metadata/
+EclipseJavaEE/Java/.settings/
+EclipseJavaEE/Java/Debug/
+EclipseJavaEE/Java/.project
+EclipseJavaEE/Java/.classpath
+EclipseJavaEE/Java/bin/
+
+#* * * * * KOTLIN * * * * *
+EclipseKotlin/lib/
+EclipseKotlin/Kotlin/.settings/
+EclipseKotlin/Kotlin/.project
+EclipseKotlin/Kotlin/.classpath
+EclipseKotlin/Kotlin/Kotlin.iml
+EclipseKotlin/Kotlin/bin/
+EclipseKotlin/Kotlin/Debug/
+EclipseKotlin/Kotlin/bin/META-INF/main.kotlin_module
+EclipseKotlin/Kotlin/gradle-module/
+EclipseKotlin/Kotlin/groovy-module/
+EclipseKotlin/Kotlin/src/jmh/
+EclipseKotlin/Kotlin/src/test/
+EclipseKotlin/.idea/
+EclipseKotlin/.idea/kotlinc.xml
+EclipseKotlin/.idea/libraries/KotlinJavaRuntime.xml
+EclipseKotlin/.idea/misc.xml
+EclipseKotlin/.idea/modules.xml
+EclipseKotlin/.idea/vcs.xml
+EclipseKotlin/.metadata/
+
+#* * * * * PYTHON * * * * *
+EclipsePy/.gitignore
+EclipsePy/.idea
+EclipsePy/pyvenv.cfg
+EclipsePy/venv
+EclipsePy/Lib/
+EclipsePy/Scripts/

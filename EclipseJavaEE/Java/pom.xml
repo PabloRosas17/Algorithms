@@ -1,0 +1,34 @@
+<project 
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fun.fizzy</groupId>
+  <artifactId>Java</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <sonar.projectKey>funfizzy_coldbrew-java</sonar.projectKey>
+    <sonar.organization>funfizzy</sonar.organization>
+    <sonar.language>java</sonar.language>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.exclusions>**/*.py</sonar.exclusions>
+  </properties>
+  <build>
+      <plugins>
+          <plugin><!-- Maven compiler plugin -->
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.13.0</version>
+              <configuration>
+                <source>11</source>
+                <target>11</target>
+              </configuration>
+          </plugin>
+          <plugin><!-- SonarCloud plugin -->
+              <groupId>org.sonarsource.scanner.maven</groupId>
+              <artifactId>sonar-maven-plugin</artifactId>
+              <version>3.11.0.3922</version>
+          </plugin>
+      </plugins>
+  </build>
+</project>
