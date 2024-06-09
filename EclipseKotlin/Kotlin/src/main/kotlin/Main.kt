@@ -1,5 +1,5 @@
 package `fun`.fizzy
 
 fun main() {
-    println("! ! ! ! ! ! !")
+    println("Main.kt")
 }
