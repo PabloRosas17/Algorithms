@@ -1,0 +1,19 @@
+name: SonarCloud Analysis at Root
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_KT }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
