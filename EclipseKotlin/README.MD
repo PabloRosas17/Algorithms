@@ -1,7 +1,7 @@
-- [Fundamentals](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/fundamentals) featuring Fundamentals.
-- [Patterns](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/patterns) featuring creational, structural, and behavioral.
-- [Principles](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/patterns) featuring Inversion of Control by the form of Dependency Injection, Law of Demeter. 
-- [Searching](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/searching) featuring searching.
-- [Sorting](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/sorting) featuring sorting.
-- [Tools](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/tools) featuring Tools.
-- [UML](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/uml) featuring UML.
+- [Fundamentals](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/fundamentals)
+- [Patterns](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/patterns)
+- [Principles](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/patterns) 
+- [Searching](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/searching)
+- [Sorting](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/sorting)
+- [Tools](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/tools)
+- [UML](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/uml)

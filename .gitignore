@@ -1,11 +1,11 @@
 
 #* * * * * OTHER * * * * *
+.vs/
 *.zip
 *.tmp
 .metadata/
 
 #* * * * * CPP ROOT * * * * *
-.vs/
 EclipseCpp/.vscode/
 EclipseCpp/.metadata/
 
