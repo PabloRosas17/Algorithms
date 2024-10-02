@@ -30,3 +30,37 @@
     - test
         - performancetestsuite
         - unittestsuite
+
+## Optimizing Online Ad Targetting
+
+###### *Motivation: improve the effectiveness and efficiency of online ad targeting for an e-commerce platform*
+
+##### Data Driven Strategy: 
+- Data Acquisition, Data Processing, Data Cleaning
+- Data Segmentation & Data Targeting
+- Ad Targeting Optimization Data
+- Data Visualization & Data Storytelling
+- Streaming Data & Behavior Data
+
+##### Skills:
+- [x] Python
+
+    -> data acquisition, data processing, data cleaning
+
+    -> streaming data & behavior data
+
+- [x] SQL
+
+    -> data segmentation & data targeting
+
+    -> ad targeting optimization data
+
+- [x] Tableau
+
+    -> data visualization & data storytelling
+
+##### Abstract:
+![abstract img](https://github.com/pablorosas17/Algorithms/py-funzies/blob/main/media/AbstractMap.jpg)
+
+##### Design:
+<img src="https://github.com/pablorosas17/Algorithms/py-funzies/blob/main/media/DataDrivenMap.jpg" width="150" height="350">
