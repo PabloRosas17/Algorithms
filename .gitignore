@@ -22,12 +22,16 @@ EclipseCpp/Cpp/Cpp.vcxproj.filters
 EclipseCpp/Cpp/Cpp.vcxproj.user
 
 #* * * * * JAVA * * * * *
+EclipseJavaEE/.idea/
 EclipseJavaEE/.metadata/
-EclipseJavaEE/Java/.settings/
 EclipseJavaEE/Java/Debug/
+EclipseJavaEE/Java/bin/
+EclipseJavaEE/Java/.idea/
+EclipseJavaEE/Java/.settings/
 EclipseJavaEE/Java/.project
 EclipseJavaEE/Java/.classpath
-EclipseJavaEE/Java/bin/
+EclipseJavaEE/Java/target/
+
 
 #* * * * * KOTLIN * * * * *
 EclipseKotlin/lib/
