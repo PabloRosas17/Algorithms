@@ -37,5 +37,5 @@ jobs:
 
       - name: Build and analyze Python code
         run: |
-          #${{ github.workspace }}/EclipsePy/PY/...
-          ${{ github.workspace }}/sonar-scanner/sonar-scanner-5.0.1.3006-windows/bin/sonar-scanner.bat -D sonar.organization=funfizzy -D sonar.projectKey=funfizzy_coldbrew-python -D sonar.sources=${{ github.workspace }}/EclipsePy/PY/lectures -D sonar.host.url=https://sonarcloud.io -D sonar.language=python -D sonar.projectBaseDir=${{ github.workspace }}/EclipsePy/PY
+          #${{ github.workspace }}/EclipsePy/py-funzies/...
+          ${{ github.workspace }}/sonar-scanner/sonar-scanner-5.0.1.3006-windows/bin/sonar-scanner.bat -D sonar.organization=funfizzy -D sonar.projectKey=funfizzy_coldbrew-python -D sonar.sources=${{ github.workspace }}/EclipsePy/py-funzies/src -D sonar.host.url=https://sonarcloud.io -D sonar.language=python -D sonar.projectBaseDir=${{ github.workspace }}/EclipsePy/py-funzies
