@@ -1,16 +1,4 @@
+#* * * * * KOTLIN IDE * * * * *
 Kotlin/.gradle
 Kotlin/build/
 Kotlin/.idea/
-Kotlin/!gradle/wrapper/gradle-wrapper.jar
-Kotlin/!**/src/main/**/build/
-Kotlin/!**/src/test/**/build/
-Kotlin/.kotlin/
-Kotlin/.settings/
-Kotlin/.project
-Kotlin/.classpath
-Kotlin/Kotlin.iml
-Kotlin/bin/
-Kotlin/Debug/
-Kotlin/src/jmh/
-Kotlin/src/test/
-Kotlin/gradle/
