@@ -4,22 +4,10 @@
 *.tmp
 .metadata/
 
-#* * * * * CPP * * * * *
+#* * * * * CPP ROOT * * * * *
 .vs/
 EclipseCpp/.vscode/
 EclipseCpp/.metadata/
-EclipseCpp/Cpp/.metadata/
-EclipseCpp/Cpp/.settings/
-EclipseCpp/Cpp/.vs/
-EclipseCpp/Cpp/.cproject
-EclipseCpp/Cpp/.project
-EclipseCpp/Cpp/Cpp/
-EclipseCpp/Cpp/x64/
-EclipseCpp/Cpp/Debug/
-EclipseCpp/Cpp/Cpp.sln
-EclipseCpp/Cpp/Cpp.vcxproj
-EclipseCpp/Cpp/Cpp.vcxproj.filters
-EclipseCpp/Cpp/Cpp.vcxproj.user
 
 #* * * * * JAVA ROOT * * * * *
 EclipseJavaEE/.idea/

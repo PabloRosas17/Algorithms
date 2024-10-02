@@ -1,0 +1,14 @@
+#* * * * * CPP IDE * * * * *
+Cpp/.metadata/
+Cpp/.settings/
+Cpp/.vs/
+Cpp/.vscode/
+Cpp/.cproject
+Cpp/.project
+Cpp/Cpp/
+Cpp/x64/
+Cpp/Debug/
+Cpp/Cpp.sln
+Cpp/Cpp.vcxproj
+Cpp/Cpp.vcxproj.filters
+Cpp/Cpp.vcxproj.user
