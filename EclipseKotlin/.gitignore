@@ -1,0 +1,13 @@
+Kotlin/.gradle
+Kotlin/build/
+Kotlin/!gradle/wrapper/gradle-wrapper.jar
+Kotlin/!**/src/main/**/build/
+Kotlin/!**/src/test/**/build/
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr

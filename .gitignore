@@ -35,6 +35,8 @@ EclipseJavaEE/Java/target/
 
 #* * * * * KOTLIN * * * * *
 EclipseKotlin/lib/
+EclipseKotlin/Kotlin/.idea/
+EclipseKotlin/Kotlin/.kotlin/
 EclipseKotlin/Kotlin/.settings/
 EclipseKotlin/Kotlin/.project
 EclipseKotlin/Kotlin/.classpath
@@ -53,11 +55,9 @@ EclipseKotlin/.idea/misc.xml
 EclipseKotlin/.idea/modules.xml
 EclipseKotlin/.idea/vcs.xml
 EclipseKotlin/.metadata/
+EclipseKotlin/Kotlin/gradle/
+
 
 #* * * * * PYTHON * * * * *
-EclipsePy/.gitignore
-EclipsePy/.idea
-EclipsePy/pyvenv.cfg
-EclipsePy/venv
-EclipsePy/Lib/
-EclipsePy/Scripts/
+EclipsePy/py-funzies/.idea
+EclipsePy/py-funzies/.venv
