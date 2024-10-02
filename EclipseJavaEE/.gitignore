@@ -1,0 +1,6 @@
+#* * * * * JAVA IDE * * * * *
+Java/.idea/
+Java/.settings/
+Java/target/
+Java/.project
+Java/.classpath

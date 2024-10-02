@@ -21,17 +21,9 @@ EclipseCpp/Cpp/Cpp.vcxproj
 EclipseCpp/Cpp/Cpp.vcxproj.filters
 EclipseCpp/Cpp/Cpp.vcxproj.user
 
-#* * * * * JAVA * * * * *
+#* * * * * JAVA ROOT * * * * *
 EclipseJavaEE/.idea/
 EclipseJavaEE/.metadata/
-EclipseJavaEE/Java/Debug/
-EclipseJavaEE/Java/bin/
-EclipseJavaEE/Java/.idea/
-EclipseJavaEE/Java/.settings/
-EclipseJavaEE/Java/.project
-EclipseJavaEE/Java/.classpath
-EclipseJavaEE/Java/target/
-
 
 #* * * * * KOTLIN ROOT * * * * *
 EclipseKotlin/lib
