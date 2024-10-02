@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f7878c-5131-4ffd-8d44-4465c92b4b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsDriver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsDriver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/patterns/PatternsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/patterns/PatternsMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/principles/PrinciplesMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/principles/PrinciplesMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/searching/SearchingMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/searching/SearchingMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/SortingMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/SortingMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/tree/TreeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/tree/TreeSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/ToolsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/ToolsMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTreeNode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/DirectAddressTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/DirectAddressTable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/Table.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/Table.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/LeetCodeMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/LeetCodeMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Detector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Detector.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Duplicate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/LeetCodeEasy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/LeetCodeEasy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/uml/UmlMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/uml/UmlMain.kt" afterDir="false" />
-    </list>
+    <list default="true" id="59f7878c-5131-4ffd-8d44-4465c92b4b83" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
