@@ -1,0 +1,32 @@
+## PY-FUNZIES [:ML]
+
+###### DataFlow
+    - data
+        - generated
+    - src
+        - ai
+        - analysis
+            - experiments
+                - reproduction
+        - data
+            - models
+                - platforms
+                    - datasource
+                        - mobile
+                        - scrape
+        - framework
+            - api
+                - google
+                    - cloud
+                - postgresql
+                - twilio
+                    - sendgrid
+            - infra
+                - core
+                    - di
+                        -logger
+                - tools
+                    - definitions
+    - test
+        - performancetestsuite
+        - unittestsuite
