@@ -1,13 +1,13 @@
 package `fun`.fizzy.tools
 
-import `fun`.fizzy.tools.bst.BinarySearchTree
-import `fun`.fizzy.tools.dat.DirectAddressTable
-import `fun`.fizzy.tools.hashtable.HashTable
-import `fun`.fizzy.tools.heap.Heap
-import `fun`.fizzy.tools.linkedlist.LinkedList
-import `fun`.fizzy.tools.queue.Queue
-import `fun`.fizzy.tools.set.Set
-import `fun`.fizzy.tools.stack.Stack
+import `fun`.fizzy.tools.datastructures.binarysearchtree.BinarySearchTree
+import `fun`.fizzy.tools.datastructures.directaccesstable.DirectAddressTable
+import `fun`.fizzy.tools.datastructures.hashtable.HashTable
+import `fun`.fizzy.tools.datastructures.heap.Heap
+import `fun`.fizzy.tools.datastructures.linkedlist.LinkedList
+import `fun`.fizzy.tools.datastructures.queue.Queue
+import `fun`.fizzy.tools.datastructures.set.Set
+import `fun`.fizzy.tools.datastructures.stack.Stack
 
 /** @desc ToolsDriver is meant for practice */
 class ToolsDriver {

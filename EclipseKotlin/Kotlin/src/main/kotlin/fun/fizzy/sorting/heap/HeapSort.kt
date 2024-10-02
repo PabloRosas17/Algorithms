@@ -1,6 +1,6 @@
 package `fun`.fizzy.sorting.heap
 
-import `fun`.fizzy.tools.heap.Heap
+import `fun`.fizzy.tools.datastructures.heap.Heap
 
 @Suppress("FunctionName")
 
