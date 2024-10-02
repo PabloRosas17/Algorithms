@@ -34,29 +34,8 @@ EclipseJavaEE/Java/target/
 
 
 #* * * * * KOTLIN * * * * *
-EclipseKotlin/lib/
-EclipseKotlin/Kotlin/.idea/
-EclipseKotlin/Kotlin/.kotlin/
-EclipseKotlin/Kotlin/.settings/
-EclipseKotlin/Kotlin/.project
-EclipseKotlin/Kotlin/.classpath
-EclipseKotlin/Kotlin/Kotlin.iml
-EclipseKotlin/Kotlin/bin/
-EclipseKotlin/Kotlin/Debug/
-EclipseKotlin/Kotlin/bin/META-INF/main.kotlin_module
-EclipseKotlin/Kotlin/gradle-module/
-EclipseKotlin/Kotlin/groovy-module/
-EclipseKotlin/Kotlin/src/jmh/
-EclipseKotlin/Kotlin/src/test/
+EclipseKotlin/lib
 EclipseKotlin/.idea/
-EclipseKotlin/.idea/kotlinc.xml
-EclipseKotlin/.idea/libraries/KotlinJavaRuntime.xml
-EclipseKotlin/.idea/misc.xml
-EclipseKotlin/.idea/modules.xml
-EclipseKotlin/.idea/vcs.xml
-EclipseKotlin/.metadata/
-EclipseKotlin/Kotlin/gradle/
-
 
 #* * * * * PYTHON * * * * *
 EclipsePy/py-funzies/.idea
