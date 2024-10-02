@@ -1,0 +1,12 @@
+#* * * * * PYTHON IDE * * * * *
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+py-funzies/.idea/

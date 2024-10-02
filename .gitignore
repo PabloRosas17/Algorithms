@@ -1,8 +1,8 @@
 
 #* * * * * OTHER * * * * *
 *.zip
-.metadata/
 *.tmp
+.metadata/
 
 #* * * * * CPP * * * * *
 .vs/
@@ -29,6 +29,5 @@ EclipseJavaEE/.metadata/
 EclipseKotlin/lib
 EclipseKotlin/.idea/
 
-#* * * * * PYTHON * * * * *
-EclipsePy/py-funzies/.idea
-EclipsePy/py-funzies/.venv
+#* * * * * PYTHON ROOT * * * * *
+EclipsePy/.idea
