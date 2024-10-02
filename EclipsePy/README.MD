@@ -1,0 +1,1 @@
+- [Funzies](https://github.com/PabloRosas17/Algorithms/tree/main/EclipsePy/py-funzies/) is a source for things that in py, for now limited to an ai:ml domain.
