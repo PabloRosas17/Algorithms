@@ -14,7 +14,7 @@ MIT offers free data structures and algorithms videos, [this](https://ocw.mit.ed
 - [CPP](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseCpp/) is a collection of computer concepts made in cpp. 
 
 ## Java [![Java Badge](https://img.shields.io/badge/Java-%2017.0-blue.svg)](https://www.java.com/en/) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=funfizzy_coldbrew-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=funfizzy_coldbrew-java)
-- [JAVA](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseJava/) is a set of computer concepts  made in cpp. 
+- [JAVA](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseJavaEE/) is a set of computer concepts  made in cpp. 
 
 ## Donations 💙
 I've always appreciated a :beer: with :pizza: , please consider donating :heart: , thank you :exclamation:
