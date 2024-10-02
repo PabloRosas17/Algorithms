@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59f7878c-5131-4ffd-8d44-4465c92b4b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsDriver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsDriver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/fundamentals/FundamentalsMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/patterns/PatternsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/patterns/PatternsMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/principles/PrinciplesMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/principles/PrinciplesMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/searching/SearchingMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/searching/SearchingMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/SortingMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/SortingMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/tree/TreeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/sorting/tree/TreeSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/ToolsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/ToolsMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/binarysearchtree/BinarySearchTreeNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/DirectAddressTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/DirectAddressTable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/Table.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/datastructures/directaccesstable/Table.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/LeetCodeMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/LeetCodeMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Detector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Detector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/Duplicate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/LeetCodeEasy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/tools/leetcode/easy/LeetCodeEasy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/uml/UmlMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fun/fizzy/uml/UmlMain.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kotlin" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ebVKBSz9TvHvd0P7glLRZNv1d5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Kotlin.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [buildEnvironment].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [buildKotlinToolingMetadata].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [buildNeeded].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [javaToolchains].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [properties].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [resolvableConfigurations].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Kotlin [testClasses].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FundamentalsMainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LeetCodeMainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pablo/Desktop/~GitHub/Algorithms/EclipseKotlin/Kotlin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41954023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59f7878c-5131-4ffd-8d44-4465c92b4b83" name="Changes" comment="" />
+      <created>1712173201955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712173201955</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

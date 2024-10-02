@@ -1,6 +1,6 @@
 package `fun`.fizzy.sorting.tree
 
-import `fun`.fizzy.tools.datastructures.bst.BinarySearchTree
+import `fun`.fizzy.tools.datastructures.binarysearchtree.BinarySearchTree
 
 @Suppress("FunctionName")
 

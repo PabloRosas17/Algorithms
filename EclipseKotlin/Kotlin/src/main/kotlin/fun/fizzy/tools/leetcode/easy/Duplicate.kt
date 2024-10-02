@@ -1,4 +1,4 @@
-package `fun`.fizzy.`fun`.fizzy.tools.leetcode.easy
+package `fun`.fizzy.tools.leetcode.easy
 
 import java.util.ArrayList
 import java.util.HashSet

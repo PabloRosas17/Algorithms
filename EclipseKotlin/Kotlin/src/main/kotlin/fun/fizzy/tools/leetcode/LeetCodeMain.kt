@@ -1,10 +1,10 @@
 package `fun`.fizzy.`fun`.fizzy.tools.leetcode
 
-import `fun`.fizzy.leetcode.LeetCodeDriver
+import `fun`.fizzy.tools.leetcode.LeetCodeDriver
 
 private val driver: LeetCodeDriver = LeetCodeDriver()
 
-fun main(args: Array<String>) {
+fun main() {
     println("* * * * * LeetCode Easy * * * * *")
     driver.lce.brain.toString()
     driver.lce.data.printMaxIntegerTypes()

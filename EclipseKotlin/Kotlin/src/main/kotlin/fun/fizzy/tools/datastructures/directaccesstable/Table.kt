@@ -1,4 +1,4 @@
-package `fun`.fizzy.tools.datastructures.dat
+package `fun`.fizzy.tools.datastructures.directaccesstable
 
 /**
  * @desc defines a slot of direct memory

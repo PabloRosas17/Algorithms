@@ -1,4 +1,4 @@
-package `fun`.fizzy.tools.datastructures.dat
+package `fun`.fizzy.tools.datastructures.directaccesstable
 
 /** @desc DirectAddressTable driver is meant for practice */
 @Suppress("ConvertSecondaryConstructorToPrimary")

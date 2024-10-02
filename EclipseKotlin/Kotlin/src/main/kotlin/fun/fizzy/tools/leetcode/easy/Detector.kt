@@ -128,7 +128,7 @@ class Detector {
     fun isPalindromeA(n: Int): Boolean {
         if(n < 0){ return  false }
         if(n in 0..9){ return true }
-        val reversed = `fun`.fizzy.`fun`.fizzy.tools.leetcode.easy.Reverser().reverseIntegerN(n)
+        val reversed = Reverser().reverseIntegerN(n)
         return reversed == n
     }
 

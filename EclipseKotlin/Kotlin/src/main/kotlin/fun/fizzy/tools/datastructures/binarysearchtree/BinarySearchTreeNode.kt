@@ -1,4 +1,4 @@
-package `fun`.fizzy.tools.datastructures.bst
+package `fun`.fizzy.tools.datastructures.binarysearchtree
 
 /**
  * @desc defines a node for the binary tree

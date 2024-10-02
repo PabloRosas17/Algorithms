@@ -14,7 +14,7 @@ import `fun`.fizzy.tools.leetcode.easy.*
 class LeetCodeEasy {
     val brain = Brains()
     val data = Data()
-    val detect = `fun`.fizzy.`fun`.fizzy.tools.leetcode.easy.Detector()
+    val detect = Detector()
     val duplicate = Duplicate()
     val maths = Maths()
     val merger = Merger()

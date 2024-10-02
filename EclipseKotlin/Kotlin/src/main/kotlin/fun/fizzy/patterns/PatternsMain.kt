@@ -2,7 +2,7 @@ package `fun`.fizzy.patterns
 
 private val mPatternsDriver: PatternsDriver = PatternsDriver()
 
-fun main(args: Array<String>) {
+fun main() {
 	println("* * * * * Observer pattern. * * * * *")
 	val oo = ObservingObject()
 	oo.addObserver(mPatternsDriver)

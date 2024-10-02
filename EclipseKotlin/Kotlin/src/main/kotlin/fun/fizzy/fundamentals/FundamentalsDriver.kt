@@ -283,7 +283,7 @@ class FundamentalsIdioms {
         println("filter,isDigit(): $d")
 
         val r = with(s){
-            this.capitalize()
+            capitalized()
         }
         println("capitalize(): $r")
     }
@@ -306,4 +306,15 @@ class FundamentalsIdioms {
 sealed class FundamentalSealedClass {
     var variable:String = "sealed class variable"
     fun function() { println("sealed class function") }
+}
+
+/**
+ * @desc extension to [capitalize] deprecated. retain functionality
+ */
+fun String.capitalized(): String {
+    return this.replaceFirstChar { item ->
+        if (item.isLowerCase())
+            item.titlecase(java.util.Locale.getDefault())
+        else item.toString()
+    }
 }

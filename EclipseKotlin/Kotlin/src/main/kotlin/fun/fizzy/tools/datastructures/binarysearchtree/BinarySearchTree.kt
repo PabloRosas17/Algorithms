@@ -1,4 +1,6 @@
-package `fun`.fizzy.tools.datastructures.bst
+package `fun`.fizzy.tools.datastructures.binarysearchtree
+
+import `fun`.fizzy.tools.datastructures.binarysearchtree.BinarySearchTreeNode
 
 /** @desc define as an alternative with a more appropriate semantics */
 typealias Node = BinarySearchTreeNode
