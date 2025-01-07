@@ -29,7 +29,7 @@ Please use this project for learning, demonstration purposes, and evalutaion of 
 ```xml
 The [NAME_OF_LICENSE] License
 
-Copyright 2023 © PabloRosas17 @ https://github.com/PabloRosas17
+Copyright 2025 © PabloRosas17 @ https://github.com/PabloRosas17
 
 [DESCRIPTION_OF_LICENSE]
 ```
