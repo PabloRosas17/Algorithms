@@ -1,0 +1,3 @@
+- [LC - EASY](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/lc/easy) . 
+- [LC - MEDIUM](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/lc/medium) .
+- [LC - HARD](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseKotlin/Kotlin/src/main/kotlin/fun/fizzy/lc/hard) .

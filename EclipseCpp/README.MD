@@ -1,0 +1,2 @@
+- [DataStructures](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseCpp/Cpp/src/datastructures): This folder contains structures designed to store and organize data efficiently, providing optimized methods for managing and accessing information.
+- [Algorithms](https://github.com/PabloRosas17/Algorithms/tree/main/EclipseCpp/Cpp/src/algorithms): This folder includes techniques for solving various tasks, such as organizing data, searching for elements, and sorting, all aimed at improving the efficiency of operations on data structures.
