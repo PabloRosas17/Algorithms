@@ -1,0 +1,9 @@
+
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:2024.01.2
+    steps:
+      - run: echo "config.yaml"

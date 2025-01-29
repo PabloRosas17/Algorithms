@@ -1,0 +1,72 @@
+name: SonarCloud Analysis for Python
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_PY }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Clear Existing Java Home Cache
+        run: |
+          # Remove any previous JAVA_HOME environment variables set in the system
+          [System.Environment]::SetEnvironmentVariable('JAVA_HOME', $null, [System.EnvironmentVariableTarget]::Process)
+          Write-Output "JAVA_HOME cleared."
+
+      - name: Download and Install SonarScanner
+        run: |
+          # Define SonarScanner version
+          $sonarVersion = "7.0.0.4796"
+
+          # Download SonarScanner ZIP file
+          Invoke-WebRequest -Uri "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$sonarVersion-windows-x64.zip" -OutFile sonar-scanner.zip
+
+          # Extract the ZIP file
+          Expand-Archive -Path sonar-scanner.zip -DestinationPath "${{ github.workspace }}\sonar-scanner"
+
+      - name: Set JAVA_HOME for SonarScanner
+        run: |
+          # Dynamically get JAVA_HOME from the setup-java action
+          $env:JAVA_HOME = "${{ runner.tool_cache }}\java\temurin-17-x64"
+
+          # Update the PATH to include Java 17 binary directory
+          $env:PATH = "$env:JAVA_HOME\bin;" + $env:PATH
+
+          # Locate SonarScanner.bat
+          $scannerPath = Get-ChildItem -Path "${{ github.workspace }}\sonar-scanner" -Recurse -Filter "sonar-scanner.bat" | Select-Object -First 1
+          if (!$scannerPath) {
+            Write-Error "SonarScanner.bat not found after extraction."
+            exit 1
+          }
+
+          # Run SonarScanner with Java 17
+          & $scannerPath.FullName `
+            "-Dsonar.projectKey=funfizzy_coldbrew-python" `
+            "-Dsonar.organization=funfizzy" `
+            "-Dsonar.login=${{ secrets.SONAR_TOKEN }}" `
+            "-Dsonar.projectName=ColdBrew.Python" `
+            "-Dsonar.host.url=https://sonarcloud.io" `
+            "-Dsonar.c.file.suffixes=" `
+            "-Dsonar.cpp.file.suffixes=" `
+            "-Dsonar.objc.file.suffixes="

@@ -1,0 +1,86 @@
+name: SonarCloud Analysis for Kotlin
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_KT }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install JDK 17
+        run: |
+          sudo apt-get update > /dev/null 2>&1
+          sudo apt-get install -y openjdk-17-jdk > /dev/null 2>&1  # Install Java 17
+
+      - name: Install Gradle
+        run: |
+          sudo apt-get install -y wget > /dev/null 2>&1
+          wget https://services.gradle.org/distributions/gradle-7.5-bin.zip > /dev/null 2>&1  # Download Gradle
+          sudo unzip gradle-7.5-bin.zip -d /opt > /dev/null 2>&1  # Install Gradle
+          sudo rm -f /usr/bin/gradle > /dev/null 2>&1  # Remove any existing symbolic link if it exists
+          sudo ln -s /opt/gradle-7.5/bin/gradle /usr/bin/gradle > /dev/null 2>&1  # Create a new symlink for Gradle
+
+      - name: Ensure gradlew has execute permissions
+        run: |
+          cd ${{ github.workspace }}/EclipseKotlin/Kotlin/
+          chmod +x gradlew > /dev/null 2>&1  # Ensure the gradlew file is executable
+
+      - name: Build with Gradle
+        run: |
+          cd ${{ github.workspace }}/EclipseKotlin/Kotlin/
+          ./gradlew build > /dev/null 2>&1  # Run the Gradle build with the wrapper
+
+      - name: Install SonarScanner
+        run: |
+          # Download SonarScanner CLI
+          wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-7.0.0.4796-linux-x64.zip -O sonar-scanner.zip > /dev/null 2>&1 
+          
+          # Verify if the file was downloaded successfully
+          if [ ! -f sonar-scanner.zip ]; then
+            echo "Download failed! Exiting..."
+            exit 1
+          fi
+
+          # Ensure 7zip is installed
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+
+          # Ensure the /opt directory exists and create it if necessary
+          sudo mkdir -p /opt/sonar-scanner-cli
+
+          # Use 7z to extract the downloaded file
+          sudo 7z x sonar-scanner.zip -o/opt/sonar-scanner-cli
+
+          # Set execute permissions for the SonarScanner binary (updated the path)
+          sudo chmod +x /opt/sonar-scanner-cli/sonar-scanner-7.0.0.4796-linux-x64/bin/sonar-scanner
+
+          # Check if the file exists before setting permissions
+          if [ ! -f /opt/sonar-scanner-cli/sonar-scanner-7.0.0.4796-linux-x64/bin/sonar-scanner ]; then
+            echo "SonarScanner binary not found! Exiting..."
+            exit 1
+          fi
+
+      - name: SonarCloud Scan
+        run: |
+          /opt/sonar-scanner-cli/sonar-scanner-7.0.0.4796-linux-x64/bin/sonar-scanner \
+            -Dsonar.projectKey=funfizzy_coldbrew-kotlin \
+            -Dsonar.organization=funfizzy \
+            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.sources=${{ github.workspace }}/EclipseKotlin/Kotlin/src \
+            -Dsonar.projectName="ColdBrew Kotlin" \
+            -Dsonar.projectVersion=1.0 \
+            -Dsonar.projectBaseDir=${{ github.workspace }}/EclipseKotlin \
+            -Dsonar.externalPropertiesFile=${{ github.workspace }}/EclipseKotlin/sonar-project-kt.properties
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_KT }}
