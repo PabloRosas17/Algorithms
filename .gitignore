@@ -1,0 +1,8 @@
+
+#* * * * * OTHER * * * * *
+.vs/
+*.tmp
+.github/workflows/sonarcloud-java.yml
+.github/workflows/sonarcloud-kt.yml
+.github/workflows/sonarcloud-py.yml
+.github/workflows/sonarcloud.yml

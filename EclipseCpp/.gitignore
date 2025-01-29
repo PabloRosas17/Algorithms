@@ -1,0 +1,27 @@
+# IDE-specific files and folders
+.vscode/
+.metadata/
+.settings/
+.vs/
+# Build directories (e.g., Eclipse, Visual Studio, etc.)
+Cpp/Debug/
+Cpp/x64/
+Cpp/.vs/
+# Eclipse project files
+Cpp/.cproject
+Cpp/.project
+# Visual Studio project files
+Cpp/Cpp.sln
+Cpp/Cpp.vcxproj
+Cpp/Cpp.vcxproj.filters
+Cpp/Cpp.vcxproj.user
+# Build wrapper output
+Cpp/build-wrapper-dump.json
+# Other generated files
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb

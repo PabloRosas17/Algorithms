@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# Comprehensive System Information Script
+# Description: Displays detailed system information.
+
+# Generic
+echo "Generic"
+echo "Hostname: $(hostname)"
+echo "System DateTime: $(date)"
+echo "Uptime: $(uptime -p)"
+echo "Kernel Version: $(uname -r)"
+echo "Operating System: $(cat /etc/os-release | grep -w NAME | cut -d= -f2 | tr -d '\"')"
+echo "Architecture: $(uname -m)"
+
+# CPU
+echo "CPU"
+lscpu | grep -E 'Model name|Architecture|CPU\(s\)|Thread|MHz'
+
+# Memory
+echo "Memory"
+free -h | awk 'NR==1 || NR==2 {print $0}'
+
+# Disk
+echo "Disk"
+df -h --output=source,fstype,size,used,avail,pcent,target | column -t
+
+# Network
+echo "Network"
+ip -4 addr show | grep -oP "(?<=inet\s)\d+(\.\d+){3}"
+echo "Default Gateway: $(ip route | grep default | awk '{print $3}')"
+echo "DNS Servers: $(cat /etc/resolv.conf | grep -E '^nameserver' | awk '{print $2}' | tr '\n' ', ' | sed 's/, $//')"
+
+# Active Network Interfaces
+echo "Active Network Interfaces"
+ip link show up | grep -E '^[0-9]+: ' | awk -F: '{print $2}' | tr -d ' '
+
+# Running Services
+echo "Running Services"
+systemctl list-units --type=service --state=running | awk '{print $1}' | column
+
+# Installed Packages Count
+if command -v dpkg &>/dev/null; then
+  echo "Installed Packages (Debian-based systems)"
+  echo "Total Installed Packages: $(dpkg -l | wc -l)"
+elif command -v rpm &>/dev/null; then
+  echo "Installed Packages (Red Hat-based systems)"
+  echo "Total Installed Packages: $(rpm -qa | wc -l)"
+else
+  echo "Package manager not detected."
+fi
+
+# Processes
+echo "Top Memory-Consuming Processes"
+ps aux --sort=-%mem | awk 'NR==1 || NR<=1 {print $0}'

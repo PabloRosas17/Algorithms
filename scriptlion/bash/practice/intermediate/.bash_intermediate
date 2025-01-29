@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Server Status Script
+# Description: Ping a list of servers and report their status.
+
+# Loop through each server and get its status
+servers=("google.com" "github.com" "instagram.com")
+for server in "${servers[@]}"; do
+  ping -c 1 "$server" &>/dev/null
+  if [ $? -eq 0 ]; then
+    echo "$server is reachable."
+  else
+    echo "$server is unreachable."
+  fi
+done

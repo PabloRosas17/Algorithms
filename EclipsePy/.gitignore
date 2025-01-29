@@ -1,0 +1,7 @@
+#* * * * * PYTHON IDE * * * * *
+__pycache__/
+*.py[cod]
+*$py.class
+py-funzies/.idea/
+py-funzies/.venv
+py-funzies/.env

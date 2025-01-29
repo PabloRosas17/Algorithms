@@ -1,0 +1,11 @@
+#* * * * * KOTLIN IDE * * * * *
+.idea/
+.metadata/
+lib/
+Kotlin/.gradle
+Kotlin/.idea/
+Kotlin/.kotlin/
+Kotlin/build/
+#Kotlin/gradle/
+#Kotlin/gradlew
+#Kotlin/gradlew.bat

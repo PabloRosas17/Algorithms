@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Description: simple function that will pull on a list of defined repositories , iteratively.
+
+# Array of repository paths.
+repos=(
+ "/c/Users/YOUR_USERNAME/LOCATION_OF_GITHUB/GITHUB_REPOSITORY/"
+)
+
+# Perform a git pull for each repository in the list.
+echo ""
+echo "performing git pull on" ${#repos[@]} " definition using pull"
+for repo in "${repos[@]}"
+do
+ echo ""
+ echo "*** Getting latest for" ${repo} "***"
+ cd "${repo}"
+ git pull
+ echo "*************************************"
+done
+echo "Git operation completed."
