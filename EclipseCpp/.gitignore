@@ -15,6 +15,8 @@ Cpp/Cpp.sln
 Cpp/Cpp.vcxproj
 Cpp/Cpp.vcxproj.filters
 Cpp/Cpp.vcxproj.user
+Cpp/Cpp/x64/Debug/Cpp.log
+Cpp/Cpp/x64/Debug/Cpp.tlog/*
 # Build wrapper output
 Cpp/build-wrapper-dump.json
 # Other generated files
