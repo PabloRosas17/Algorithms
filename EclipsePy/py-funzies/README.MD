@@ -60,8 +60,8 @@
     -> data visualization & data storytelling
 
 ##### Abstract:
-![abstract img](https://github.com/PabloRosas17/Algorithms/blob/main/EclipsePy/media/AbstractMap.jpg)
+![abstract img](https://github.com/PabloRosas17/Vaults/blob/main/EclipsePy/media/AbstractMap.jpg)
 
 ##### Design:
-<img src="https://github.com/PabloRosas17/Algorithms/blob/main/EclipsePy/media/DataDrivenMap.jpg" width="150" height="350">
+<img src="https://github.com/PabloRosas17/Vaults/blob/main/EclipsePy/media/DataDrivenMap.jpg" width="150" height="350">
 

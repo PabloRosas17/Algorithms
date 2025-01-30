@@ -1,1 +1,1 @@
-- [PyFunzies](https://github.com/PabloRosas17/Algorithms/tree/main/EclipsePy/py-funzies/): This folder contains ai:ml in py.
+- [PyFunzies](https://github.com/PabloRosas17/Vaults/tree/main/EclipsePy/py-funzies/): This folder contains ai:ml in py.
