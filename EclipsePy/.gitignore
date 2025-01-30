@@ -5,3 +5,4 @@ __pycache__/
 py-funzies/.idea/
 py-funzies/.venv
 py-funzies/.env
+.idea/
